@@ -8,6 +8,7 @@
         <allow-intent href="market:*" />
         <resource-file src="beep.wav" target="res/raw/beep.wav" />
         <resource-file src="beep.wav" target="res/raw/beep1.wav" />
+        <resource-file src="beep.wav" target="res/beep2.wav" />
         <resource-file src="beep.wav" target="beeppp.wav" />
     </platform>
 	
