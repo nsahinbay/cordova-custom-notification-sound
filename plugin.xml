@@ -11,11 +11,5 @@
         <resource-file src="beep.wav" target="res/beep2.wav" />
         <resource-file src="beep.wav" target="beeppp.wav" />
     </platform>
-	
-    <platform name="ios">
-        <allow-intent href="market:*" />
-        <resource-file src="beep.wav" target="Resources/beep.wav" />
-    </platform>
-	
 
 </plugin>
