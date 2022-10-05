@@ -5,7 +5,7 @@
 	<name>cordova-custom-notification-sound</name>
 
   <platform name="android">
-		<resource-file src="src/beep.wav" target="platforms/android/res/raw/beep.wav" />
+		<resource-file src="beep.wav" target="platforms/android/res/raw/beep.wav" />
 	</platform>
 
 </plugin>
