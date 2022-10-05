@@ -1,11 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-custom-notification-sound" version="6.1.2"
+<plugin id="cordova-custom-notification-sound" version="1.0.0"
 		xmlns="http://apache.org/cordova/ns/plugins/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android">
 	<name>cordova-custom-notification-sound</name>
-
-  <platform name="android">
-		<resource-file src="beep.wav" target="platforms/android/res/raw/beep.wav" />
-	</platform>
+	
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <resource-file src="assets/www/beep.wav" target="res/raw/push.wav" />
+    </platform>
+	
 
 </plugin>
