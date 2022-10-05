@@ -6,7 +6,7 @@
 	
     <platform name="android">
         <allow-intent href="market:*" />
-        <resource-file src="assets/www/beep.wav" target="res/raw/push.wav" />
+        <resource-file src="beep.wav" target="res/raw/beep.wav" />
     </platform>
 	
 
