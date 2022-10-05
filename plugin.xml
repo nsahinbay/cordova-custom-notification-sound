@@ -9,5 +9,10 @@
         <resource-file src="beep.wav" target="res/raw/beep.wav" />
     </platform>
 	
+    <platform name="ios">
+        <allow-intent href="market:*" />
+        <resource-file src="beep.wav" target="Resources/beep.wav" />
+    </platform>
+	
 
 </plugin>
